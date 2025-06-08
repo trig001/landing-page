@@ -1,109 +1,138 @@
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif; 
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  flex-basis: auto;
- }
 
-.main {
+}
+
+.hero {
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    flex: 1;
+    padding: 0 48px;
 }
 
 .header {
+    color: white;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
-    
-    padding: 32px;
 }
 
-.subheader {
+.herobody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.herosecond {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1 {
+    color: #f9faf8;
+    background-color: #3882f6; 
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+.placeholder-box {
+    width: 500px;
+    height: 150px;
+    background-color: #646c78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.content {
     display: flex;
     flex-direction: column;
-    color: white;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex: 1;
 }
 
-.awesome {
-    color: #F9FAF8;
-    font-size: 48px;
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
     font-weight: 900;
 }
 
-.secondary {
-    color: #e5e7eb;
-    font-size: 18px;
+.info-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.logo {
-    align-content: flex-start;
-    color: #F9FAF8;
-    font-size: 24px;
+.info {
+    max-width: 200px;
 }
 
-.right-links {
-    align-content: flex-end;
-
+.blue-box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
-button {
-    border: none;
-    border-radius: 8px;
-    background: #3882f6
-    padding: 8px 16px;
-}
-
-.image-container {
-  position: relative; /* Important for positioning the placeholder */
-  width: 200px; /* Set a fixed width or calculate based on content */
-  height: 150px; /* Set a fixed height or calculate based on content */
-}
-
-.image {
-  width: 100%; /* Or a specific width */
-  height: 100%; /* Or a specific height */
-}
-
-.placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("path/to/placeholder/image.jpg"); /* Or use a data URI */
-  background-size: cover; /* Or contain, depending on how you want it to fit */
-  background-position: center; /* Center the placeholder image */
-  /* Add other styling as needed, like colors, fonts, etc. */
-}
-
-.body {
+.quotes {
     display: flex;
     justify-content: center;
-
-}
-
-.thor {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex: 1;
     background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+
 }
+
+.calltoaction {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+
+.button2 {
+    padding: 8px, 16px;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+} 
 
 .footer {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    height: 64px;
+    color: #e5e7eb;
     background-color: #1f2937;
-
 }
