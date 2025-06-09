@@ -84,21 +84,33 @@ body {
 
 .info-one {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-bottom: 2rem;
 }
 
 .info-two {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .info {
-    max-width: 200px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.text {
+    width: 100%;
+    align-items: center;
+    word-wrap: break-word;
+    text-align: center;
 }
 
 .blue-box {
