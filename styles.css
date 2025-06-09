@@ -1,11 +1,8 @@
 body {
-  height: 100vh;
+  
   margin: 0 auto;
-  overflow: hidden;
   font-family: Roboto, sans-serif; 
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+
 
 }
 
@@ -13,7 +10,6 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    flex: 1;
     padding: 0 48px;
 }
 
@@ -21,14 +17,34 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 1rem 4rem;
 }
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+.links a {
+    
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
 
 .herobody {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    padding: 3rem 4rem;
 }
+
 
 .heromain {
     font-size: 48px;
@@ -58,20 +74,12 @@ body {
     color: #f9faf8;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
-
 .information {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 3rem 4rem;
 }
 
 .info-one {
@@ -100,32 +108,65 @@ body {
     border-radius: 10px;
 }
 
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 2rem 5rem;
+
+}
 .quotes {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
-    background-color: #e5e7eb;
     font-size: 36px;
-    color: #1f2937;
     font-style: light italic;
-
+    
+    
 }
 
+.thor {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0px 48px;
+}
+
+.calltoaction-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 5% 10%;
+    background-color: white;
+}
 .calltoaction {
     display: flex;
     flex: 1;
+    padding: 3rem 4rem;
+    border-radius: 10px;
     align-items: center;
     justify-content: space-around;
     background-color: #3882F6;
     color: #f9faf8;
 }
 
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .button2 {
-    padding: 8px, 16px;
-    border-radius: 10px;
-    border-color: #f9faf8;
+    display: flex;
+    flex: 1;
+    padding: 8px 24px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-color: white;
     background-color: #3882f6;
+    color: #f9faf8;
 } 
 
 .footer {
@@ -135,4 +176,5 @@ body {
     height: 64px;
     color: #e5e7eb;
     background-color: #1f2937;
+    padding: 1rem;
 }
